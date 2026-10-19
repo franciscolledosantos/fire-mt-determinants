@@ -1,0 +1,8 @@
+,,D2,D2,AUC_ocorr,AUC_ocorr,Spearman,Spearman,MAE,MAE
+,,mean,std,mean,std,mean,std,mean,std
+modelo,esquema,,,,,,,,
+Média histórica da célula (2010–19),temporal (teste 2020–24),-1.101,,0.713,,0.335,,1.398,
+NB-GLM (ML),blocos espaciais 1° (5 folds),0.137,0.051,0.66,0.016,0.262,0.019,1.446,0.086
+NB-GLM (ML),temporal (teste 2020–24),0.126,,0.661,,0.266,,1.745,
+ZINB-GLM (ML),blocos espaciais 1° (5 folds),0.156,0.045,0.661,0.03,0.263,0.033,1.406,0.09
+ZINB-GLM (ML),temporal (teste 2020–24),0.148,,0.665,,0.271,,1.684,

@@ -1,0 +1,7 @@
+modelo,esquema,D2,AUC_ocorr,Spearman,MAE
+LightGBM,aleatória,0.21,0.694,0.317,1.308
+LightGBM,blocos 1°,0.085,0.635,0.218,1.383
+LightGBM,temporal (teste 2017–19),0.16,0.68,0.287,1.262
+NB-GLM,aleatória,0.047,0.606,0.172,1.444
+NB-GLM,blocos 1°,0.038,0.596,0.154,1.456
+NB-GLM,temporal (teste 2017–19),0.039,0.604,0.165,1.38

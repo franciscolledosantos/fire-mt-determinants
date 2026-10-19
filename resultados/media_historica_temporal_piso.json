@@ -1,0 +1,2 @@
+{"nota": "Média histórica da célula (2010–19) no teste temporal 2020–24: D² depende do piso aplicado à taxa prevista nas células sem foco no treino. teste_2025.py usa piso 1e-6; rev17_zinb_vs_nb.py usou 1e-9. A Tabela 2 reporta o valor com piso 1e-6 (coerente com a linha de 2025). AUC = 0.713, Spearman = 0.335, MAE = 1.398 em todos os casos.",
+ "D2_por_piso": {"1e-9": -1.101, "1e-6": -0.681, "1e-3": -0.260, "1e-2": -0.121}}

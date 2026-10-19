@@ -1,0 +1,250 @@
+{
+ "focos": {
+  "p_jjas_anom|Amazonia": [
+   1.16,
+   1.15,
+   1.17
+  ],
+  "p_jjas_anom|Cerrado": [
+   1.33,
+   1.31,
+   1.34
+  ],
+  "p_jjas_anom|Pantanal": [
+   2.22,
+   2.11,
+   2.33
+  ],
+  "p_chuvosa_pre_anom|Amazonia": [
+   1.06,
+   1.05,
+   1.07
+  ],
+  "p_chuvosa_pre_anom|Cerrado": [
+   1.14,
+   1.13,
+   1.16
+  ],
+  "p_chuvosa_pre_anom|Pantanal": [
+   1.47,
+   1.41,
+   1.52
+  ],
+  "cdd_anom|Amazonia": [
+   1.02,
+   1.01,
+   1.03
+  ],
+  "cdd_anom|Cerrado": [
+   1.05,
+   1.04,
+   1.07
+  ],
+  "cdd_anom|Pantanal": [
+   0.78,
+   0.75,
+   0.8
+  ],
+  "conv|Amazonia": [
+   22.61,
+   21.69,
+   23.57
+  ],
+  "conv|Cerrado": [
+   3.37,
+   3.11,
+   3.65
+  ],
+  "conv|Pantanal": [
+   1.05,
+   0.9,
+   1.23
+  ]
+ },
+ "focos+lag": {
+  "p_jjas_anom|Amazonia": [
+   1.18,
+   1.17,
+   1.2
+  ],
+  "p_jjas_anom|Cerrado": [
+   1.41,
+   1.39,
+   1.43
+  ],
+  "p_jjas_anom|Pantanal": [
+   2.5,
+   2.39,
+   2.63
+  ],
+  "p_chuvosa_pre_anom|Amazonia": [
+   1.06,
+   1.05,
+   1.07
+  ],
+  "p_chuvosa_pre_anom|Cerrado": [
+   1.15,
+   1.13,
+   1.16
+  ],
+  "p_chuvosa_pre_anom|Pantanal": [
+   1.43,
+   1.37,
+   1.48
+  ],
+  "cdd_anom|Amazonia": [
+   1.04,
+   1.02,
+   1.05
+  ],
+  "cdd_anom|Cerrado": [
+   1.08,
+   1.07,
+   1.1
+  ],
+  "cdd_anom|Pantanal": [
+   0.74,
+   0.72,
+   0.77
+  ],
+  "conv|Amazonia": [
+   10.74,
+   10.28,
+   11.23
+  ],
+  "conv|Cerrado": [
+   3.27,
+   3.02,
+   3.55
+  ],
+  "conv|Pantanal": [
+   1.03,
+   0.89,
+   1.2
+  ]
+ },
+ "area": {
+  "p_jjas_anom|Amazonia": [
+   1.27,
+   1.25,
+   1.3
+  ],
+  "p_jjas_anom|Cerrado": [
+   1.32,
+   1.3,
+   1.34
+  ],
+  "p_jjas_anom|Pantanal": [
+   2.38,
+   2.26,
+   2.51
+  ],
+  "p_chuvosa_pre_anom|Amazonia": [
+   1.13,
+   1.11,
+   1.15
+  ],
+  "p_chuvosa_pre_anom|Cerrado": [
+   1.16,
+   1.14,
+   1.17
+  ],
+  "p_chuvosa_pre_anom|Pantanal": [
+   1.7,
+   1.63,
+   1.77
+  ],
+  "cdd_anom|Amazonia": [
+   1.01,
+   1.0,
+   1.03
+  ],
+  "cdd_anom|Cerrado": [
+   0.98,
+   0.97,
+   0.99
+  ],
+  "cdd_anom|Pantanal": [
+   0.8,
+   0.77,
+   0.82
+  ],
+  "conv|Amazonia": [
+   12.7,
+   12.13,
+   13.3
+  ],
+  "conv|Cerrado": [
+   1.48,
+   1.36,
+   1.6
+  ],
+  "conv|Pantanal": [
+   0.88,
+   0.76,
+   1.03
+  ]
+ },
+ "area+lag": {
+  "p_jjas_anom|Amazonia": [
+   1.35,
+   1.32,
+   1.37
+  ],
+  "p_jjas_anom|Cerrado": [
+   1.42,
+   1.4,
+   1.44
+  ],
+  "p_jjas_anom|Pantanal": [
+   2.81,
+   2.67,
+   2.95
+  ],
+  "p_chuvosa_pre_anom|Amazonia": [
+   1.16,
+   1.14,
+   1.18
+  ],
+  "p_chuvosa_pre_anom|Cerrado": [
+   1.18,
+   1.16,
+   1.19
+  ],
+  "p_chuvosa_pre_anom|Pantanal": [
+   1.64,
+   1.58,
+   1.71
+  ],
+  "cdd_anom|Amazonia": [
+   1.05,
+   1.03,
+   1.07
+  ],
+  "cdd_anom|Cerrado": [
+   1.03,
+   1.02,
+   1.05
+  ],
+  "cdd_anom|Pantanal": [
+   0.74,
+   0.72,
+   0.77
+  ],
+  "conv|Amazonia": [
+   4.63,
+   4.42,
+   4.85
+  ],
+  "conv|Cerrado": [
+   1.34,
+   1.24,
+   1.45
+  ],
+  "conv|Pantanal": [
+   0.89,
+   0.77,
+   1.03
+  ]
+ }
+}

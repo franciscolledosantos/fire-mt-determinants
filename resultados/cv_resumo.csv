@@ -1,0 +1,17 @@
+,,D2,D2,AUC_ocorr,AUC_ocorr,Spearman,Spearman,MAE,MAE
+,,mean,std,mean,std,mean,std,mean,std
+modelo,esquema,,,,,,,,
+"LightGBM (ajustado, CV interna aleatória)",aleatória (5 folds),0.376,0.007,0.769,0.002,0.431,0.003,1.151,0.007
+"LightGBM (ajustado, CV interna aleatória)",blocos espaciais 1° (5 folds),0.292,0.05,0.738,0.03,0.379,0.026,1.217,0.102
+"LightGBM (ajustado, CV interna aleatória)",temporal (teste a partir de T_TESTE),0.259,,0.732,,0.374,,1.496,
+"LightGBM (ajustado, CV interna espacial)",aleatória (5 folds),0.359,0.007,0.761,0.002,0.418,0.003,1.178,0.007
+"LightGBM (ajustado, CV interna espacial)",blocos espaciais 1° (5 folds),0.29,0.05,0.735,0.03,0.374,0.027,1.235,0.101
+"LightGBM (ajustado, CV interna espacial)",temporal (teste a partir de T_TESTE),0.262,,0.728,,0.369,,1.524,
+LightGBM (padrão),aleatória (5 folds),0.348,0.007,0.755,0.002,0.41,0.003,1.194,0.007
+LightGBM (padrão),blocos espaciais 1° (5 folds),0.286,0.05,0.731,0.029,0.37,0.026,1.245,0.102
+LightGBM (padrão),blocos espaciais 2° (5 folds),0.247,0.072,0.71,0.064,0.337,0.099,1.309,0.147
+LightGBM (padrão),temporal (teste a partir de T_TESTE),0.259,,0.726,,0.365,,1.537,
+NB-GLM,aleatória (5 folds),-114.394,163.08,0.649,0.002,0.249,0.002,214.014,303.512
+NB-GLM,blocos espaciais 1° (5 folds),-126.92,142.686,0.641,0.017,0.235,0.025,229.384,252.43
+NB-GLM,blocos espaciais 2° (5 folds),-743.868,1057.168,0.624,0.015,0.208,0.026,1555.988,2323.694
+NB-GLM,temporal (teste a partir de T_TESTE),-124.2,,0.646,,0.244,,270.395,

@@ -1,0 +1,6 @@
+,D2,D2,Spearman,Spearman,MAE,MAE
+,mean,std,mean,std,mean,std
+modelo,,,,,,
+GWPR,0.448,0.207,0.744,0.081,173.671,21.001
+LightGBM,0.582,0.135,0.771,0.065,141.927,27.931
+Poisson global,-2.852,11.244,0.516,0.125,744.661,2039.697

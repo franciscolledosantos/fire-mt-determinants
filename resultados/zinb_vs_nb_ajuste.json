@@ -1,0 +1,38 @@
+{
+ "nb": {
+  "logLik": -492213.1,
+  "k": 29,
+  "AIC": 984484.3,
+  "BIC": 984803.9,
+  "alpha": 5.319,
+  "zeros_prev": 0.7377,
+  "convergiu": true,
+  "iteracoes": 314,
+  "segundos": 123
+ },
+ "zinb": {
+  "logLik": -488163.3,
+  "k": 34,
+  "AIC": 976394.6,
+  "BIC": 976769.3,
+  "alpha": 4.5866,
+  "zeros_prev": 0.7381,
+  "convergiu": true,
+  "iteracoes": 307,
+  "segundos": 234
+ },
+ "vuong_zinb_vs_nb": {
+  "estatistica": 48.05,
+  "p_unilateral": 0.0,
+  "nota": "positivo favorece o ZINB; ignora a dependência espacial (otimista)"
+ },
+ "zeros_obs": 0.7401,
+ "gamma_zero_inflation": {
+  "intercept": -4.733,
+  "elev": 0.06,
+  "slope": 0.336,
+  "lroad": 2.241,
+  "lpop": -1.611
+ },
+ "pi_estrutural_media": 0.1027
+}

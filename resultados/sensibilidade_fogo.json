@@ -1,0 +1,137 @@
+{
+ "concordancia": {
+  "Amazonia": {
+   "spearman_celula_ano": 0.518,
+   "pearson_log_celula_ano": 0.622,
+   "pearson_totais_anuais": 0.944,
+   "frac_celulas_ano_com_queima": 0.375,
+   "frac_com_foco": 0.269
+  },
+  "Cerrado": {
+   "spearman_celula_ano": 0.553,
+   "pearson_log_celula_ano": 0.629,
+   "pearson_totais_anuais": 0.925,
+   "frac_celulas_ano_com_queima": 0.402,
+   "frac_com_foco": 0.255
+  },
+  "Pantanal": {
+   "spearman_celula_ano": 0.645,
+   "pearson_log_celula_ano": 0.75,
+   "pearson_totais_anuais": 0.976,
+   "frac_celulas_ano_com_queima": 0.355,
+   "frac_com_foco": 0.214
+  }
+ },
+ "efeitos": {
+  "NB focos (base)": {
+   "Amazonia": {
+    "jjas_-1DP": 1.159,
+    "chuvosa_-1DP": 1.061,
+    "cdd_+1DP": 1.02,
+    "conv_0a10pp": 22.19
+   },
+   "Cerrado": {
+    "jjas_-1DP": 1.324,
+    "chuvosa_-1DP": 1.143,
+    "cdd_+1DP": 1.051,
+    "conv_0a10pp": 3.3
+   },
+   "Pantanal": {
+    "jjas_-1DP": 2.206,
+    "chuvosa_-1DP": 1.466,
+    "cdd_+1DP": 0.78,
+    "conv_0a10pp": 1.04
+   }
+  },
+  "NB focos + queimada t−1, t−2": {
+   "Amazonia": {
+    "jjas_-1DP": 1.183,
+    "chuvosa_-1DP": 1.058,
+    "cdd_+1DP": 1.037,
+    "conv_0a10pp": 10.57
+   },
+   "Cerrado": {
+    "jjas_-1DP": 1.409,
+    "chuvosa_-1DP": 1.144,
+    "cdd_+1DP": 1.084,
+    "conv_0a10pp": 3.24
+   },
+   "Pantanal": {
+    "jjas_-1DP": 2.491,
+    "chuvosa_-1DP": 1.428,
+    "cdd_+1DP": 0.742,
+    "conv_0a10pp": 1.02
+   },
+   "lq1_por_unidade_log": 0.179,
+   "lq2_por_unidade_log": 0.301
+  },
+  "Tweedie área queimada": {
+   "Amazonia": {
+    "jjas_-1DP": 1.273,
+    "chuvosa_-1DP": 1.13,
+    "cdd_+1DP": 1.012,
+    "conv_0a10pp": 12.69
+   },
+   "Cerrado": {
+    "jjas_-1DP": 1.321,
+    "chuvosa_-1DP": 1.159,
+    "cdd_+1DP": 0.98,
+    "conv_0a10pp": 1.47
+   },
+   "Pantanal": {
+    "jjas_-1DP": 2.377,
+    "chuvosa_-1DP": 1.701,
+    "cdd_+1DP": 0.796,
+    "conv_0a10pp": 0.88
+   }
+  },
+  "Tweedie área queimada + queimada t−1, t−2": {
+   "Amazonia": {
+    "jjas_-1DP": 1.348,
+    "chuvosa_-1DP": 1.161,
+    "cdd_+1DP": 1.052,
+    "conv_0a10pp": 4.63
+   },
+   "Cerrado": {
+    "jjas_-1DP": 1.422,
+    "chuvosa_-1DP": 1.179,
+    "cdd_+1DP": 1.031,
+    "conv_0a10pp": 1.33
+   },
+   "Pantanal": {
+    "jjas_-1DP": 2.807,
+    "chuvosa_-1DP": 1.642,
+    "cdd_+1DP": 0.742,
+    "conv_0a10pp": 0.89
+   },
+   "lq1_por_unidade_log": 0.268,
+   "lq2_por_unidade_log": 0.379
+  }
+ },
+ "teste_2025_area_queimada": {
+  "GLM Tweedie": {
+   "obs_total_mil_ha": 1611.8,
+   "pred_total_mil_ha": 3516.2,
+   "spearman": 0.257,
+   "razao_pred_obs_Amazonia": 2.34,
+   "razao_pred_obs_Cerrado": 1.79,
+   "razao_pred_obs_Pantanal": 17.2
+  },
+  "LightGBM Tweedie": {
+   "obs_total_mil_ha": 1611.8,
+   "pred_total_mil_ha": 2795.5,
+   "spearman": 0.333,
+   "razao_pred_obs_Amazonia": 1.72,
+   "razao_pred_obs_Cerrado": 1.59,
+   "razao_pred_obs_Pantanal": 8.81
+  },
+  "Média histórica da célula": {
+   "obs_total_mil_ha": 1611.8,
+   "pred_total_mil_ha": 3730.4,
+   "spearman": 0.371,
+   "razao_pred_obs_Amazonia": 2.66,
+   "razao_pred_obs_Cerrado": 1.96,
+   "razao_pred_obs_Pantanal": 12.12
+  }
+ }
+}

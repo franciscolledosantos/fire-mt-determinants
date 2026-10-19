@@ -1,0 +1,20 @@
+{
+ "interno_aleatorio": {
+  "num_leaves": 255,
+  "min_child_samples": 50,
+  "learning_rate": 0.02,
+  "n_estimators": 800,
+  "colsample_bytree": 0.8,
+  "subsample": 0.6,
+  "reg_lambda": 10
+ },
+ "interno_espacial": {
+  "num_leaves": 127,
+  "min_child_samples": 20,
+  "learning_rate": 0.02,
+  "n_estimators": 800,
+  "colsample_bytree": 0.8,
+  "subsample": 0.8,
+  "reg_lambda": 0
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "lag0": {
+  "anos": "2010-2020",
+  "n": 331418,
+  "r_celula_ano": 0.246,
+  "r_totais_anuais": 0.162
+ },
+ "lag1": {
+  "anos": "2011-2020",
+  "n": 301290,
+  "r_celula_ano": 0.997,
+  "r_totais_anuais": 1.0
+ }
+}
